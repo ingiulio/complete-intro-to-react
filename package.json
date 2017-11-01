@@ -1,7 +1,8 @@
 {
   "scripts": {
     "api": "node ratingsAPI.js",
-    "build": "webpack --watch"
+    "build": "webpack --watch",
+    "dev": "webpack-dev-server"
   },
   "prettier": {
     "parser": "flow",
